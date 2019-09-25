@@ -1,0 +1,28 @@
+<header class="page-header">
+  <h5>Assign Holidays to Friends</h5>
+</header>
+<main>
+  <section>
+    <div class="alert alert-info">
+      <h6>Friend {{id}} David Celebrates the Following Holidays:</h6>
+    </div>
+
+    <div class="form-group">
+      <select class="form-control">
+        <option>Labor Day</option>
+        <option>President's Day</option>
+      </select>
+      <input type="button"
+             class="btn btn-primary"
+             value="Add Holiday for Friend">
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item">Christmas 2019</li>
+      <li class="list-group-item">Valentine's Day</li>
+    </ul>
+  </section>
+  <input type="button"
+         class="btn btn-success"
+         value="Back to List"
+         (click)="backToList()">
+</main>
